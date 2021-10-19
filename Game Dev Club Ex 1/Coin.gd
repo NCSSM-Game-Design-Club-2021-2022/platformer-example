@@ -1,4 +1,6 @@
 extends Area2D
 
+# we'll do this later
+
 func _on_Coin_body_entered(body):
-	pass # Replace with function body.
+	queue_free()
